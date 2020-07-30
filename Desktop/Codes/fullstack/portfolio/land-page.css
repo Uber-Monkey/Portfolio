@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(-45deg, crimson, #000000, crimson);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.global {
+    margin-top: 13%;
+}
+
+pre {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: crimson;
+}
+
+.main-para {
+    color: white;
+    font-size:40px;
+}
+
+.line-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+button {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 40px;
+    width: 175px;
+    height: 75px;
+    color: black;
+    border: crimson solid .1px;
+    border-radius: 3px;
+    background-color: crimson;
+}

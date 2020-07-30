@@ -1,0 +1,107 @@
+body {
+overflow: hidden;
+margin:0px;
+padding: 0px;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    height:100px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.header {
+    margin-left: 46%;
+    border-bottom: black solid 3px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin-left: 350px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin: 1%; 
+}
+
+.links:hover{
+    transition: .5s;
+    background-color: crimson;
+    color: white;
+}
+
+.links {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+    width: 150px;
+}
+
+.icon-header img{
+    height: 110px;
+    width: 110px;
+}
+
+.icon-header > .icon {
+    padding-top: 200px;
+    padding-left: 390px;
+}
+
+.paras {
+    font-size: 25px;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one {
+    margin-left: 210px
+}
+
+.two {
+    margin-left: 31px;
+}
+
+.three {
+    margin-right: 255px
+}
+
+.h1{
+    margin-right: 15px;
+}
+
+.h2 {
+    margin-right: 150px;
+}
+
+.h3 {
+    margin-right: 20px;
+}
+
+#header {
+    padding-top: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
