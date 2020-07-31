@@ -60,11 +60,11 @@ pre {
 button {
     margin-top: 25px;
     margin-left: 15px;
-    font-size: 40px;
-    width: 175px;
-    height: 75px;
+    font-size: 30px;
+    width: 155px;
+    height: 65px;
     color: black;
     border: crimson solid .1px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: crimson;
 }
