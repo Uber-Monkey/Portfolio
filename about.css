@@ -85,6 +85,7 @@ h1 {
 }
 
 .desc-logo img{
+    opacity: 100%;
     height: 300px;
     width: 300px;
     margin-left: 100px;
