@@ -4,7 +4,6 @@ body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(-45deg, crimson, #00084b, crimson);
-    /* background: linear-gradient(-45deg, #eb4234, #2c2463, #eb4234); */
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -34,7 +33,7 @@ pre {
 img {
     height: 250px;
     width: 250px;
-    margin-top: -250px;
+    margin-top: -100px;
     margin-left: 835px;
 }
 

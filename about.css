@@ -1,9 +1,24 @@
 body {
-overflow: hidden;
+/* overflow: hidden;
 margin:0px;
-padding: 0px;
+padding: 0px; */
 font-family: 'Roboto', sans-serif;
-background-color: white;
+background: linear-gradient(-45deg, crimson, #00084b, crimson);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .nav-bar {
@@ -23,8 +38,8 @@ background-color: white;
     width: 1fr;
     grid-column:2;
     font-size: 45px;
-    color: black;
-    border-bottom: black solid 3px;
+    color: white;
+    border-bottom: white solid 3px;
     display: flex;
     justify-content: center;
 } 
@@ -38,12 +53,11 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 45px; 
-    color: black;
 }
 
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 22px;
     width: 150px;
 }
@@ -55,17 +69,17 @@ h1 {
 }
 
 .links:hover{
+    background-color: crimson;
     transition: .5s;
     color: white;
     border-radius: 5px;
-    background-color: crimson;
 }
 
 .icon-header {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    color: black;
+    color: white;
     padding: 50px;
     margin-right: 150px;
 }
@@ -100,7 +114,7 @@ h1 {
 }
 
 .desc-h {
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 .desc {
@@ -121,7 +135,37 @@ h1 {
     font-size: 22px;
     margin-bottom: 10px;
     width: 300px;
-    background-color: #000653;
-    color: crimson;
-    border: crimson solid 4px;
+    background-color: #242464;
+    color: white;
+    border: white solid 4px;
+    border-radius: 5px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-link {
+    margin: 60px;
+}
+
+.icon-link a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+}
+
+.icon-link {
+    /* height: 100px;
+    width: 100px; */
 }
