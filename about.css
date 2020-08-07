@@ -1,7 +1,7 @@
 body {
-/* overflow: hidden;
+overflow: hidden;
 margin:0px;
-padding: 0px; */
+padding: 0px;
 font-family: 'Roboto', sans-serif;
 background: linear-gradient(-45deg, crimson, #00084b, crimson);
 background-size: 400% 400%;
@@ -153,7 +153,18 @@ h1 {
 }
 
 .footer-link {
+    width: 150px;
+    display: flex;
+    justify-content: center;
     margin: 60px;
+}
+
+.footer-link:hover {
+    background-color: crimson;
+    transition: .5s;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
 }
 
 .icon-link a{
@@ -162,10 +173,11 @@ h1 {
     color: white;
     width: auto;
     height: 50px;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: -45px;
 }
 
-.icon-link {
-    /* height: 100px;
-    width: 100px; */
+.icon-link a:hover{
+    color: crimson;
+    transition: .5s;
 }
