@@ -3,7 +3,7 @@ body {
     margin:0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(-45deg, crimson, #00084b, crimson);
+    background: linear-gradient(-45deg, #dc143c, #00084b, crimson);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }

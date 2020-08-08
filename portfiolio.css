@@ -1,11 +1,12 @@
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin:0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(-45deg, crimson, #00084b, crimson);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    color: white;
     }
     
     @keyframes gradient {
@@ -19,57 +20,138 @@ body {
             background-position: 0% 50%;
         }
     }
-
+    
 .nav-bar {
-    display: flex;
-    align-items: right;
-    justify-content: right;
-}
-
+        display: flex;
+        justify-content: right;
+    }
+    
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
 .header h1{
-    width: 1fr;
-    grid-column:2;
-    font-size: 45px;
-    color: white;
-    border-bottom: white solid 3px;
-    display: flex;
-    justify-content: center;
-} 
-
-h1 {
-    width: 150px
-}
-
- .nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px; 
-}
-
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        color: white;
+        border-bottom: white solid 3px;
+    } 
+    
+.nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px; 
+    }
+    
 .nav-links a{
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    width: 150px;
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        width: 150px;
+    }
+    
+.links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.links:hover{
+        background-color: crimson;
+        transition: .5s;
+        color: white;
+        border-radius: 5px;
+    }
+
+
+.knorr-img img {
+    border: 5px solid #00084b ;
+    height: 350px;
+    width: 600px;
 }
 
-.links {
+.knorr-img {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.links:hover{
-    background-color: crimson;
-    transition: .5s;
-    color: white;
-    border-radius: 5px;
+.knorr {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
+
+.cert {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bottega img{
+    height: 200px;
+    width: 250px;
+}
+.bottega {
+    margin: 1%;
+}
+
+.comptia img{
+    height: 200px;
+    width: 250px;
+}
+
+.comptia {
+    margin: 1%;
+}
+
+.footer {
+        margin: 0 auto;
+        padding-top: 15px;
+}
+    
+.footer-links a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+}
+    
+.footer-links {
+        display: flex;
+        justify-content: center; 
+}
+    
+.footer-link {
+        margin-top: 20px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+}
+    
+.footer-link:hover {
+        background-color: crimson;
+        color: white;
+        transition: .5s;
+        border-radius: 5px;
+}
+    
+.icon-link a{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: auto;
+        height: 50px;
+        font-size: 25px;
+}
+    
+.icon-link a:hover{
+        color: crimson;
+        transition: .5s;
+}
+    
