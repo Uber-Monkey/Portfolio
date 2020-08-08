@@ -145,10 +145,25 @@ color: white;
 }
 
 .footer-link {
+<<<<<<< HEAD
     margin-top: 20px;
     width: 150px;
     display: flex;
     justify-content: center;
+}
+
+.footer-link:hover {
+    background-color: crimson;
+    transition: .5s;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+=======
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+>>>>>>> c67be542202274ba059e92741e69250038f66cb5
 }
 
 .footer-link:hover {
@@ -166,9 +181,14 @@ color: white;
     width: auto;
     height: 50px;
     font-size: 25px;
+<<<<<<< HEAD
 }
 
 .icon-link a:hover{
     color: crimson;
     transition: .5s;
 }
+=======
+    margin-top: -45px;
+}
+>>>>>>> c67be542202274ba059e92741e69250038f66cb5
