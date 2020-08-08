@@ -182,6 +182,7 @@ color: white;
 
 .icon-link a:hover{
     color: crimson;
+    color: crimson;
     transition: .5s;
     margin-top: -45px;
 }
