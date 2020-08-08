@@ -168,14 +168,6 @@ color: white;
     border-radius: 5px;
 }
 
-.footer-link:hover {
-    background-color: crimson;
-    transition: .5s;
-    color: white;
-    border-radius: 5px;
-    width: 150px;
-}
-
 .icon-link a{
     padding-top: 10px;
     display: flex;
