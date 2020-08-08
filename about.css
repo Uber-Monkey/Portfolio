@@ -1,5 +1,5 @@
 body {
-overflow: hidden;
+/* overflow: hidden; */
 margin:0px;
 padding: 0px;
 font-family: 'Roboto', sans-serif;
@@ -85,6 +85,10 @@ color: white;
     font-size: 22px;
 }
 
+.nipple {
+    width:30%;
+}
+
 .bottom-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -129,7 +133,7 @@ color: white;
     height: auto;
     background-color: #242464;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 30px;
 }
 
@@ -153,14 +157,9 @@ color: white;
 
 .footer-link:hover {
     background-color: crimson;
-    transition: .5s;
     color: white;
+    transition: .5s;
     border-radius: 5px;
-    width: 150px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    margin: 60px;
 }
 
 .footer-link:hover {
@@ -182,7 +181,5 @@ color: white;
 
 .icon-link a:hover{
     color: crimson;
-    color: crimson;
     transition: .5s;
-    margin-top: -45px;
 }
