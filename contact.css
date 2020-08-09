@@ -1,0 +1,93 @@
+body {
+    /* overflow: hidden; */
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(-45deg, crimson, #00084b, crimson);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: black;
+}
+    
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+    margin-bottom:30px ;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: crimson solid 1px;
+    border-radius: 2px;
+    font-size: 25px;
+    height: 60px;
+    width: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form input{
+    font-size: 25px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    width: 30%;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.form input:focus{
+    box-shadow:  10px 10px  rgba(0, 0, 0, 0.1);
+}
+
+.form textarea {
+    width: 30%;
+    height: 250px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: inherit;
+    padding: 25px 30px;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.form textarea:focus{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    font-size: 25px;
+    margin: 11px;
+    display: block;
+    transition: 0.5s;
+    color: crimson;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
