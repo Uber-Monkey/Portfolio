@@ -21,12 +21,13 @@ body {
 }
 }
 
-<<<<<<< HEAD
 #contact {
     background-color: crimson;
     border-radius: 5px;
     margin-left: 5px;
+    margin-right: 5px;
 }
+
 
 .nav-bar {
     display: flex;
@@ -48,7 +49,7 @@ body {
     border-bottom: white solid 3px;
 } 
 
-.nav-links {
+ .nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +76,6 @@ body {
     border-radius: 5px;
 }
 
-=======
->>>>>>> 1f43ed3f17ec6c4f3de848130dccea6850e827b5
 .form {
     margin: 0 auto;
     text-align: center;
@@ -155,8 +154,8 @@ button {
     opacity: 1;
     visibility: visible;
     transform: translateY(1rem);
-<<<<<<< HEAD
 } */
+
 
 footer {
     margin: 0 auto;
@@ -205,6 +204,3 @@ footer {
     color: crimson;
     transition: .5s;
 }
-=======
-} */
->>>>>>> 1f43ed3f17ec6c4f3de848130dccea6850e827b5
