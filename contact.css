@@ -21,6 +21,11 @@ body {
 }
 }
 
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .form-group {
     display: flex;
     justify-content: center;
@@ -35,7 +40,7 @@ button {
     border-radius: 2px;
     font-size: 25px;
     height: 60px;
-    width: 100px;
+    width: 140px;
 }
 
 .button {
@@ -53,17 +58,19 @@ button {
     font-size: 25px;
     padding: 25px 30px;
     border-radius: 5px;
-    width: 30%;
+    width: 35%;
     border: 2px solid black;
     transition: 0.5s;
 }
 
 .form input:focus{
     box-shadow:  10px 10px  rgba(0, 0, 0, 0.1);
+    color: crimson;
+    border:  2px crimson solid;
 }
 
 .form textarea {
-    width: 30%;
+    width: 35%;
     height: 250px;
     border-radius: 5px;
     font-size: 25px;
@@ -74,10 +81,12 @@ button {
 }
 
 .form textarea:focus{
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    box-shadow:  10px 10px  rgba(0, 0, 0, 0.1);
+    color: crimson;
+    border:  2px crimson solid;
 }
 
-.form label {
+/* .form label {
     font-size: 25px;
     margin: 11px;
     display: block;
@@ -90,4 +99,4 @@ button {
     opacity: 1;
     visibility: visible;
     transform: translateY(1rem);
-}
+} */

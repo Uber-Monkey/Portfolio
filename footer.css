@@ -1,7 +1,10 @@
 
-.footer {
+footer {
     margin: 0 auto;
     padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-links a{
