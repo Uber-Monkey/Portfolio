@@ -35,8 +35,6 @@ img {
     width: 250px;
 }
 
-
-
 .main-para {
     color: white;
     font-size:40px;
@@ -66,12 +64,11 @@ img {
 }
 
 button {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin: 25px 20px;
     font-size: 30px;
-    width: 155px;
-    height: 65px;
-    color: black;
+    width: 175px;
+    height: 80px;
+    color: white;
     border: crimson solid .1px;
     border-radius: 5px;
     background-color: crimson;
