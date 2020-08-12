@@ -74,7 +74,7 @@ button {
     background-color: crimson;
 }
 
-@media {
+@media (max-width:800px) , (max-height: 1000px){
 
     .global {
         margin-top: 55%;
