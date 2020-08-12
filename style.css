@@ -73,3 +73,40 @@ button {
     border-radius: 5px;
     background-color: crimson;
 }
+
+@media (max-width:600px){
+
+    .global {
+        margin-top: 25%;
+    }
+
+    pre {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        color: crimson;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .main-para {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    button {
+        margin: 25px 20px;
+        font-size: 25px;
+        width: 155px;
+        height: 65px;
+        color: white;
+        border: crimson solid .1px;
+        border-radius: 5px;
+        background-color: crimson;
+    }
+    
+
+}

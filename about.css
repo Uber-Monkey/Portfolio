@@ -104,8 +104,7 @@ color: white;
 
 .desc-logo img{
     height: 250px;
-    width: 25
-    0px;
+    width: 250px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -237,4 +236,37 @@ footer {
 .icon-link a:hover{
     color: crimson;
     transition: .5s;
+}
+
+@media (max-width: 600px){
+    
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bottom-wrapper{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .desc-wrapper {
+        grid-row: 1;
+    }
+
+    .desc-logo img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .desc-h h2 {
+        height: 10px;
+        font-size: 25px;
+    }
+
+    .desc-wrapper {
+        font-size: 22px;
+        margin: 1%;
+    }
+
 }
