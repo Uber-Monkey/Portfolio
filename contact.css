@@ -21,7 +21,7 @@ body {
 }
 }
 
-#contact {
+/* #contact {
     background-color: crimson;
     border-radius: 5px;
     margin-left: 5px;
@@ -141,22 +141,6 @@ button {
     border:  2px crimson solid;
 }
 
-/* .form label {
-    font-size: 25px;
-    margin: 11px;
-    display: block;
-    transition: 0.5s;
-    color: crimson;
-    opacity: 0;
-}
-
-.form input:focus + label, .form textarea:focus + label{
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(1rem);
-} */
-
-
 footer {
     margin: 0 auto;
     padding-top: 15px;
@@ -203,4 +187,151 @@ footer {
 .icon-link a:hover{
     color: crimson;
     transition: .5s;
+} */
+
+#contact {
+    background-color: crimson;
+    border: 1px crimson solid;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.links {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+.nav-links {
+    justify-content: center;
+    display: flex;
+}
+
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    border-bottom: white solid 3px;
+} 
+
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+    margin-bottom:30px ;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: crimson solid 1px;
+    border-radius: 2px;
+    font-size: 50px;
+    height: 150px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form input{
+    font-size: 40px;
+    padding: 40px 40px;
+    border-radius: 5px;
+    width: 650px;
+    height: 100px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.form input:focus{
+    box-shadow:  20px 20px  rgba(0, 0, 0, .5);
+    color: crimson;
+    border:  2px crimson solid;
+}
+
+.form textarea {
+    width: 650px;
+    height: 550px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: inherit;
+    padding: 25px 30px;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.form textarea:focus{
+    box-shadow:  20px 20px  rgba(0, 0, 0, 0.5);
+    color: crimson;
+    border:  2px crimson solid;
+}
+
+
+
+footer {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-link a{
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: auto;
+    height: 50px;
+    font-size: 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-link {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }

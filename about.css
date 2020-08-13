@@ -248,6 +248,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 45px;
+    margin-right: 80px;
 }
 
 .nav-links {
