@@ -340,3 +340,38 @@ footer {
     border-radius: 20px;
     margin-top: 30px;
 }
+
+
+footer {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-link a{
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: auto;
+    height: 50px;
+    font-size: 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-link {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
