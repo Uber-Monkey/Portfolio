@@ -110,9 +110,10 @@ button {
         width: 250px;
         height: 95px;
         color: white;
-        border: crimson solid .1px;
+        border: crimson solid 1px;
         border-radius: 3px;
         background-color: crimson;
+        text-decoration: none
     }
     
 
