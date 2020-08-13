@@ -20,7 +20,7 @@ body {
 	}
 }
 
-main {
+/* main {
     margin-top: 8%;
 }
 
@@ -86,4 +86,56 @@ footer {
 .icon-link a:hover{
     color: crimson;
     transition: .5s;
+} */
+
+main {
+    margin-top: 15%;
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    font-size: 35px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: 1px crimson solid;
+    font-size: 20px;
+    height: 50px;
+    width: 110px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-link {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
