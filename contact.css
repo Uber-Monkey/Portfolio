@@ -226,7 +226,7 @@ footer {
 .header h1{
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     border-bottom: white solid 3px;
 } 
