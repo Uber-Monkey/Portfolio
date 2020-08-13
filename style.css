@@ -81,19 +81,19 @@ button {
     }
 
     pre {
-        font-size: 40px;
+        font-size: 60px;
         font-family: 'Roboto', sans-serif;
         color: crimson;
     }
 
     img {
-        height: 275px;
-        width: 275px;
+        height: 350px;
+        width: 350px;
     }
 
     .main-para {
         color: white;
-        font-size: 40px;
+        font-size: 55px;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -103,12 +103,11 @@ button {
         justify-content: center;
     }
 
-
     button {
         margin: 25px 20px;
-        font-size: 45px;
-        width: 250px;
-        height: 95px;
+        font-size: 55px;
+        width: 300px;
+        height: 110px;
         color: white;
         border: crimson solid 1px;
         border-radius: 3px;
