@@ -74,34 +74,34 @@ button {
     background-color: crimson;
 }
 
-/* @media (max-width:800px) , (max-height: 1000px){
+@media (min-width:800px) {
 
     .global {
         margin-top: 55%;
     }
 
     pre {
-        font-size: 30px;
+        font-size: 40px;
         font-family: 'Roboto', sans-serif;
         color: crimson;
     }
 
     img {
-        height: 150px;
-        width: 150px;
+        height: 275px;
+        width: 275px;
     }
 
     .main-para {
         color: white;
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
 
     button {
         margin: 25px 20px;
-        font-size: 25px;
-        width: 155px;
-        height: 65px;
+        font-size: 45px;
+        width: 250px;
+        height: 95px;
         color: white;
         border: crimson solid .1px;
         border-radius: 3px;
@@ -109,4 +109,4 @@ button {
     }
     
 
-} */
+}
