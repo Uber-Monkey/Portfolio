@@ -74,8 +74,6 @@ button {
     background-color: crimson;
 } */
 
-/* @media (max-width:32.5em) { */
-
     .global {
         margin-top: 40%;
     }
@@ -114,6 +112,3 @@ button {
         background-color: crimson;
         text-decoration: none
     }
-    
-
-/* } */
