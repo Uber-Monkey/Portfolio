@@ -1,0 +1,4 @@
+
+@media only screen and (max-width: 32.5em) { @import "_small.scss"; }
+
+@media only screen and (min-width:32.5em) { @import "_large.scss"; }

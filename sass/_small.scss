@@ -1,0 +1,310 @@
+// Body
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(-45deg, crimson, #00084b, crimson);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+  color: white;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Navbar And Header
+.nav-bar {
+  .nav-links {
+    justify-content: center;
+    display: flex;
+    margin-left: 13px;
+
+    .links {
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+      margin-top: 2em;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    border-bottom: white solid 3px;
+  }
+}
+
+// Main/Center Content - Index
+.global {
+  .main-para {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    img {
+      margin-top: 4em;
+      height: 8em;
+      width: 8em;
+    }
+
+    pre {
+      font-size: 22px;
+      color: crimson;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+      margin: 10px;
+      font-size: 20px;
+      height: 2.5em;
+      width: 6em;
+      color: white;
+      border: crimson solid 1px;
+      border-radius: 5px;
+      background-color: crimson;
+    }
+  }
+}
+
+// Main/Center Content - About
+#about {
+  background-color: crimson;
+  border: 1px crimson solid;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+}
+
+.icon-header {
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+
+  .icon-item {
+    margin-top: 10px;
+
+    img {
+      height: 2.5em;
+      width: 2.5em;
+    }
+  }
+}
+
+.bottom-wrapper {
+  display: grid;
+  justify-content: center;
+  .desc-wrapper {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 15px;
+
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      height: 5em;
+      width: 5em;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+
+  .code-bar {
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 22px;
+    }
+
+    .lang {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 200px;
+      height: 60px;
+      background-color: #242464;
+      color: white;
+      border-radius: 10px 10px;
+      margin-top: 10px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// Main/Center Content - Contact
+#contact {
+  background-color: crimson;
+  border: 1px crimson solid;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  text-align: center;
+
+  .form-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  input {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 350px;
+    height: 80px;
+    border: 2px solid black;
+    transition: 0.5s;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  input:focus {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+    color: crimson;
+    border: 2px crimson solid;
+  }
+
+  textarea {
+    width: 350px;
+    height: 190px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: inherit;
+    transition: 0.5s;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  textarea:focus {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+    color: crimson;
+    border: 2px crimson solid;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    button {
+      background-color: crimson;
+      color: white;
+      border: crimson solid 1px;
+      border-radius: 2px;
+      font-size: 25px;
+      height: 60px;
+      width: 140px;
+    }
+  }
+}
+
+// Main/Content - Thanks
+.thank {
+  img {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  p {
+    margin: 30px 30px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.footer-link {
+  margin: 0px;
+  button {
+    background-color: crimson;
+    color: white;
+    border: crimson solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 60px;
+    width: 105px;
+  }
+}
+
+// Footer
+footer {
+  margin: 0 auto;
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+
+    .footer-link {
+      margin-top: 20px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+  }
+
+  .icon-link {
+    a {
+      display: flex;
+      justify-content: center;
+      color: white;
+      margin-top: 10px;
+      height: 40px;
+      font-size: 25px;
+    }
+  }
+}
